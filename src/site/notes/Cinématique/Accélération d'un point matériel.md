@@ -35,3 +35,10 @@ $$\text{On peut y réécrire sous la forme : } \frac{\mathrm{d^2}l}{\mathrm{d}t^
 $$\vec{a} = \frac{\mathrm{d^2}l}{\mathrm{d}t^2} \vec{u_T} \ + \ (\frac{\mathrm{d}l}{\mathrm{d}t})^2 \frac{\vec{u_N}}{R_C}$$
 
 
+Ainsi, on peut exprimer l'accélération sous la forme : 
+$$\vec{a} = a_T \ \vec{u_T} \ + a_N \ \vec{u_N}$$
+où :
+$$a_T\text{ représente l'accélération tangentielle : } a_T = \frac{\mathrm{d^2}l}{\mathrm{d}t^2} = \frac{\mathrm{d}||\vec{v}||}{\mathrm{d}t}$$
+$$a_N \text{ représente l'accélération normale : } a_N = (\frac{\mathrm{d}l}{dt})^2 = \frac{1}{R_C} = \frac{v^2}{R_C}$$
+*Remarque : si un point parcourt une trajectoire curviligne à vitesse ||v|| constante, alors l'accélération tangentielle est nulle, donc son vecteur accélération est toujours normal à la trajectoire, dirigé vers l'intérieur, et d'autant plus grand que le rayon de courbure Rc est petit.*
+
