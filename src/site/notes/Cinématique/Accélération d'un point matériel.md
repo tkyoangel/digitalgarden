@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Cinématique/Accélération d'un point matériel/","tags":["gardenEntry"]}
+{"dg-publish":true,"permalink":"/Cinématique/Accélération d'un point matériel/"}
 ---
 
 ## Vecteur accélération instantanée
