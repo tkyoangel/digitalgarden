@@ -97,6 +97,19 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setLiquidOptions({
     dynamicPartials: true,
   });
+  eleventyConfig.addTransform("htmlMinifier", function(content, outputPath) {
+    if( outputPath && outputPath.endsWith(".html") ) {
+      // Désactiver temporairement
+      let minified = require("html-minifier").minify(content, {
+      useShortDoctype: true,
+      removeComments: true,
+      collapseWhitespace: true
+      });
+      return minified;
+      return content; // Pas de minification
+    }
+    return content;
+  });
   let markdownLib = markdownIt({
     breaks: true,
     html: true,
