@@ -9,8 +9,6 @@ $$y'' \ + \ a_1 \ y' \ + a_0 \ y = 0$$
 
 En reprenant les **coefficients** de **l'équation différentielle homogène** du second ordre :
 $$P(X) = X^2 + a_1X+a_0$$
-
-*Remarque : En physique, on préférera noter l'équation différentielle du second ordre sous une forme plus appropriée, voir* [[Aide - Rappels OMNI/Résoudre une équation différentielle du second ordre#Notation en Physique\|Résoudre une équation différentielle du second ordre#Notation en Physique]]
 ## Discriminant du polynôme caractéristique
 
 En calculant le **discriminant** *(delta)* du polynôme caractéristique, 3 cas de figure sont possibles
