@@ -42,3 +42,4 @@ $$a_T\text{ représente l'accélération tangentielle : } a_T = \frac{\mathrm{d^
 $$a_N \text{ représente l'accélération normale : } a_N = (\frac{\mathrm{d}l}{dt})^2 = \frac{1}{R_C} = \frac{v^2}{R_C}$$
 *Remarque : si un point parcourt une trajectoire curviligne à vitesse ||v|| constante, alors l'accélération tangentielle est nulle, donc son vecteur accélération est toujours normal à la trajectoire, dirigé vers l'intérieur, et d'autant plus grand que le rayon de courbure Rc est petit.*
 
+
