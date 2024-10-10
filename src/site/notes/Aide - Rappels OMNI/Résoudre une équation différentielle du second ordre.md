@@ -9,30 +9,38 @@ $$y'' \ + \ a_1 \ y' \ + a_0 \ y = 0$$
 
 En reprenant les **coefficients** de **l'équation différentielle homogène** du second ordre :
 $$P(X) = X^2 + a_1X+a_0$$
+
+*Remarque : En physique, on préférera noter l'équation différentielle du second ordre sous une forme plus appropriée, voir * [[Aide - Rappels OMNI/Résoudre une équation différentielle du second ordre#Notation en Physique\|Résoudre une équation différentielle du second ordre#Notation en Physique]]
 ## Discriminant du polynôme caractéristique
 
 En calculant le **discriminant** *(delta)* du polynôme caractéristique, 3 cas de figure sont possibles
 
-### Si ∆>0
+### Si DELTA>0
 
 P admet **deux racines réelles** :
 
 $$\text{Les racines réelles sont } X_1 \text{ et } X_2$$
 On écrit alors la solution :
 $$y(t) = \lambda e^{X_1t} \ + \ \mu e^{X_2 t}, \ \ \ ( \lambda, \mu) \in \mathcal{R}^2$$
-### Si ∆=0
+*Plus d'infos dans le cas de la mécanique :*
+[[Aide - Rappels OMNI/Résoudre une équation différentielle du second ordre#Lorsque ∆ > 0\|Résoudre une équation différentielle du second ordre#Lorsque ∆ > 0]]
+### Si DELTA=0
 
 P admet **une racine double** :
 $$\text{La racine double se note : } X_0$$
 On écrit alors la solution :
 $$y(t) = ( \lambda + \mu) e^{X_0 t}, \ \ \ ( \lambda, \mu) \in \mathcal{R}^2$$
-### Si ∆<0
+*Plus d'infos dans le cas de la mécanique :*
+[[Aide - Rappels OMNI/Résoudre une équation différentielle du second ordre#Lorsque ∆ = 0\|Résoudre une équation différentielle du second ordre#Lorsque ∆ = 0]]
+### Si DELTA<0
 
 P admet **deux racines complexes conjuguées** : 
 $$X_1 = X_0 + i \omega \text{ et } X_2 = X_0 -i \omega$$
 On peut écrire les solutions sous les formes suivantes :
 $$y(t) = e^{X_0 t} [ \ \lambda \ \mathrm{cos}( \omega t) \ + \mu \ \mathrm{sin}( \omega t) \ ], \ \ \ ( \lambda, \mu) \in \mathcal{R}^2$$
 $$y(t) = \lambda e ^{X_0 t} [ \ \mathrm{sin}( \omega t + \phi) \ ], \ \ \ ( \lambda, \mu ) \in \mathcal{R}^2$$
+*Plus d'infos dans le cas de la mécanique :*
+[[Aide - Rappels OMNI/Résoudre une équation différentielle du second ordre#Lorsque ∆ < 0\|Résoudre une équation différentielle du second ordre#Lorsque ∆ < 0]]
 ## Notation en Physique
 
 ### Ecriture de l'équation différentielle du second ordre
@@ -48,7 +56,7 @@ $$y(t) = \lambda e ^{X_0 t} [ \ \mathrm{sin}( \omega t + \phi) \ ], \ \ \ ( \lam
 
 ### Identification des systèmes
 
-#### Lorsque ∆ > 0
+#### Lorsque DELTA> 0
 $$\text{Les coefficients } \gamma \text{ et } \omega_0 \text{ sont positifs}$$
 On obtiendra une solution de la forme : 
 $$y(t) = \lambda e^{X_1t} \ + \ \mu e^{X_2 t}$$
@@ -56,7 +64,7 @@ On dit que ce sont des **solutions amorties ou surcritiques**
 Le régime est dit **apériodique**
 Il n'y a **pas d'oscillation autour de l'axe des abscisses**
 
-#### Lorsque ∆ = 0
+#### Lorsque DELTA = 0
 $$\text{Les coefficients } \gamma \text{ et } \omega_0 \text{ sont positifs}$$
 On obtient une solution de la forme :
 $$y(t) = ( \lambda + \mu) e^{X_0 t}, \ \ \ ( \lambda, \mu) \in \mathcal{R}^2$$
@@ -71,7 +79,7 @@ $$y(t) = \lambda \ \mathrm{cos}( \omega_0 t) \ + \mu \ \mathrm{sin}( \omega_0 t)
 $$y(t) = A \ \mathrm{sin}( \omega_0 t + \phi)$$
 Le régime est dit **harmonique** *(c'est une régime théorique)*
 
-#### Lorsque ∆ < 0
+#### Lorsque DELTA < 0
 
 On a 2 racines complexes conjuguées. 
 
@@ -85,3 +93,4 @@ $$y(t) = A \ \mathrm{sin} ( \omega_p t + \phi) \ e^{- \gamma t}$$
 Le régime est dit **pseudo-périodique** ou **pseudo-critique**
 
 #### Résumé graphique des cas possibles :
+![Pasted image 20241010174319.png](/img/user/Ressources/Pasted%20image%2020241010174319.png)
