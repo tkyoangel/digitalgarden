@@ -93,9 +93,12 @@ function getAnchorAttributes(filePath, linkTitle) {
 
 const tagRegex = /(^|\s|\>)(#[^\s!@#$%^&*()=+\.,\[{\]};:'"?><]+)(?!([^<]*>))/g;
 
-module.exports = function (eleventyConfig) {
-  eleventyConfig.setLiquidOptions({
-    dynamicPartials: true,
+module.exports = function(eleventyConfig) {
+  eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
+    if(outputPath && outputPath.endsWith(".html")) {
+      return content; // Ne fait rien, pas de minification
+    }
+    return content;
   });
   let markdownLib = markdownIt({
     breaks: true,
