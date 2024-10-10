@@ -85,4 +85,3 @@ $$y(t) = A \ \mathrm{sin} ( \omega_p t + \phi) \ e^{- \gamma t}$$
 Le régime est dit **pseudo-périodique** ou **pseudo-critique**
 
 #### Résumé graphique des cas possibles :
-![Pasted image 20241010174319.png](/img/user/Ressources/Pasted%20image%2020241010174319.png)
