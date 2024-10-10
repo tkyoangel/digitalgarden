@@ -15,7 +15,7 @@ $$\vec{a} = \frac{\mathrm{d}\vec{v}}{\mathrm{d}t} = \frac{\mathrm{d}^2\vec{OM}}{
 
 $$\vec{a} = \frac{\mathrm{d^2}x}{\mathrm{d}t^2} \vec{e_x} + \frac{\mathrm{d^2}y}{\mathrm{d}t^2} \vec{e_y} + \frac{\mathrm{d^2}z}{\mathrm{d}t^2} \vec{e_z}$$
 ### Coordonnées cylindriques
-*voir [[Cinématique/Aide - Rappels OMNI/Dérivation des vecteurs unitaires (par rapport au temps)#Dérivée du vecteur e theta\|Dérivation des vecteurs unitaires (par rapport au temps)#Dérivée du vecteur e theta]]*
+*voir [[Aide - Rappels OMNI/Dérivation des vecteurs unitaires (par rapport au temps)#Dérivée du vecteur e theta\|Dérivation des vecteurs unitaires (par rapport au temps)#Dérivée du vecteur e theta]]*
 
 $$\vec{a} = (\overset{..}{r} - r \overset{.}{\theta^2})\vec{e_r} \ + \ (2\overset{.}{r}\overset{.}{\theta} \ + \ r \overset{..}{\theta})\vec{e_\theta} + \overset{..}{z}\vec{e_z}$$
 (démonstration : [[Poly Meca.pdf#page=65]])

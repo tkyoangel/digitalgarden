@@ -29,7 +29,7 @@ $$\vec{v}(t) = \frac{\mathrm{d}r(t)}{\mathrm{d}t} \vec{e_r}(t) \ + \ r(t) \frac{
 
 Et donc, de manière physique :
 $$\vec{v}(t) = \overset{.}{r} \vec{e_r} \ + \ r \overset{.}{\theta} \vec{e_ \theta} \ + \ \overset{.}{z} \vec{e_z}$$
-*(si besoin, voir [[Cinématique/Aide - Rappels OMNI/Dérivation des vecteurs unitaires (par rapport au temps)\|Dérivation des vecteurs unitaires (par rapport au temps)]])*
+*(si besoin, voir [[Aide - Rappels OMNI/Dérivation des vecteurs unitaires (par rapport au temps)\|Dérivation des vecteurs unitaires (par rapport au temps)]])*
 
 
 ## Composantes en fonction de l'abscisse curviligne
