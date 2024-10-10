@@ -22,16 +22,12 @@ P admet **deux racines réelles** :
 $$\text{Les racines réelles sont } X_1 \text{ et } X_2$$
 On écrit alors la solution :
 $$y(t) = \lambda e^{X_1t} \ + \ \mu e^{X_2 t}, \ \ \ ( \lambda, \mu) \in \mathcal{R}^2$$
-*Plus d'infos dans le cas de la mécanique :*
-[[Aide - Rappels OMNI/Résoudre une équation différentielle du second ordre#Lorsque ∆ > 0\|Résoudre une équation différentielle du second ordre#Lorsque ∆ > 0]]
 ### Si ∆=0
 
 P admet **une racine double** :
 $$\text{La racine double se note : } X_0$$
 On écrit alors la solution :
 $$y(t) = ( \lambda + \mu) e^{X_0 t}, \ \ \ ( \lambda, \mu) \in \mathcal{R}^2$$
-*Plus d'infos dans le cas de la mécanique :*
-[[Aide - Rappels OMNI/Résoudre une équation différentielle du second ordre#Lorsque ∆ = 0\|Résoudre une équation différentielle du second ordre#Lorsque ∆ = 0]]
 ### Si ∆<0
 
 P admet **deux racines complexes conjuguées** : 
@@ -39,8 +35,6 @@ $$X_1 = X_0 + i \omega \text{ et } X_2 = X_0 -i \omega$$
 On peut écrire les solutions sous les formes suivantes :
 $$y(t) = e^{X_0 t} [ \ \lambda \ \mathrm{cos}( \omega t) \ + \mu \ \mathrm{sin}( \omega t) \ ], \ \ \ ( \lambda, \mu) \in \mathcal{R}^2$$
 $$y(t) = \lambda e ^{X_0 t} [ \ \mathrm{sin}( \omega t + \phi) \ ], \ \ \ ( \lambda, \mu ) \in \mathcal{R}^2$$
-*Plus d'infos dans le cas de la mécanique :*
-[[Aide - Rappels OMNI/Résoudre une équation différentielle du second ordre#Lorsque ∆ < 0\|Résoudre une équation différentielle du second ordre#Lorsque ∆ < 0]]
 ## Notation en Physique
 
 ### Ecriture de l'équation différentielle du second ordre
